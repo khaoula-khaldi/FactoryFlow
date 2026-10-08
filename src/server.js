@@ -1,6 +1,7 @@
 require("dotenv").config();
 
 const express = require("express");
+const connectDB = require("./config/database");
 
 const app = express();
 
@@ -14,6 +15,12 @@ app.get("/", (req, res) => {
     });
 });
 
-app.listen(PORT, () => {
-    console.log(`FactoryFlow API running on port ${PORT}`);
-});
+const startServer = async () => {
+    await connectDB();
+
+    app.listen(PORT, () => {
+        console.log(`FactoryFlow API running on port ${PORT}`);
+    });
+};
+
+startServer();
