@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/api/auth/login
+method: POST
+body:
+  type: json
+  content: "   {\r
+
+    \    \"email\": \"admin@factoryflow.com\",\r
+
+    \    \"password\": \"789654123\"\r
+
+    \   } "
+order: 3732715263642041

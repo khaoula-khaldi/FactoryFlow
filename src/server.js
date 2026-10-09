@@ -4,6 +4,7 @@ const express = require("express");
 const connectDB = require("./config/database");
 
 const installationRoutes = require("./routes/installationRoutes");
+const authRoutes = require("./routes/utilisateurRoutes");
 
 const app = express();
 
@@ -18,6 +19,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/install", installationRoutes);
+app.use("/api/auth", authRoutes);
 
 const startServer = async () => {
     await connectDB();

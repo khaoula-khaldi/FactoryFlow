@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:3000/api/install
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"nom\": \"assia\",\r
+
+    \    \"email\": \"admin@factoryflow.com\",\r
+
+    \    \"password\": \"789654123\"\r
+
+    }"
+order: 1791478934297
