@@ -1,15 +1,12 @@
 const mongoose = require("mongoose");
-
-const InstallationSchema = new mongoose.Schema({
-    Installed:{
-        type:Boolean,
-        require:true,
-        default:false
+ const InstallationSchema = new mongoose.Schema({
+     installed: {
+        type: Boolean,
+        required: true,
+        default: false
     },
-    DateInstallation:{
-        type:Date
-    }
-
-});
-module.exports = mongoose.model("Installation",InstallationSchema);
-
+    dateInstallation: { 
+        type: Date 
+    } 
+    });
+ module.exports = mongoose.model("Installation", InstallationSchema);

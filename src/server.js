@@ -3,6 +3,8 @@ require("dotenv").config();
 const express = require("express");
 const connectDB = require("./config/database");
 
+const installationRoutes = require("./routes/installationRoutes");
+
 const app = express();
 
 const PORT = process.env.PORT || 3000;
@@ -14,6 +16,8 @@ app.get("/", (req, res) => {
         message: "FactoryFlow API fonctionne"
     });
 });
+
+app.use("/api/install", installationRoutes);
 
 const startServer = async () => {
     await connectDB();

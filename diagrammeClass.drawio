@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="k80Smje_ZUKV8nYF3MS4" name="Page-1">
-        <mxGraphModel dx="769" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="3125" dy="1503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -112,8 +112,16 @@
                 <mxCell id="5TwgJdS7ixdRb320kCLU-113" parent="5TwgJdS7ixdRb320kCLU-111" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="+ creer()&lt;div&gt;+consulter()&lt;/div&gt;&lt;div&gt;+modificer()&lt;/div&gt;&lt;div&gt;+annuler()&lt;/div&gt;&lt;div&gt;+demarrer()&lt;/div&gt;&lt;div&gt;+terminer()&lt;/div&gt;&lt;div&gt;+affecter()&lt;/div&gt;&lt;div&gt;+ calculeBesoin()&lt;div&gt;+verifierstock()&lt;/div&gt;&lt;div&gt;+enregistrerMouvement()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
                     <mxGeometry height="145" width="190" y="150" as="geometry"/>
                 </mxCell>
+                <mxCell id="yVQpu_mmypZ7JsUFaleJ-7" edge="1" parent="1" source="5TwgJdS7ixdRb320kCLU-114" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.982;entryY=0.694;entryDx=0;entryDy=0;entryPerimeter=0;" target="5TwgJdS7ixdRb320kCLU-97">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1490" y="1420"/>
+                            <mxPoint x="550" y="1330"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="5TwgJdS7ixdRb320kCLU-114" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(253, 243, 255));&quot;&gt;MouvementStock&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="209" width="190" x="970" y="342" as="geometry"/>
+                    <mxGeometry height="209" width="190" x="1470" y="320" as="geometry"/>
                 </mxCell>
                 <mxCell id="5TwgJdS7ixdRb320kCLU-115" parent="5TwgJdS7ixdRb320kCLU-114" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;div&gt;-id : objectId&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-quantite : Number&lt;/span&gt;&lt;/div&gt;&lt;div&gt;-stockeActuelle : Number&lt;/div&gt;&lt;div&gt;-date:date&lt;/div&gt;" vertex="1">
                     <mxGeometry height="90" width="190" y="29" as="geometry"/>
@@ -155,7 +163,7 @@
                     <mxGeometry height="30" width="60" x="290" y="672" as="geometry"/>
                 </mxCell>
                 <mxCell id="5TwgJdS7ixdRb320kCLU-128" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="&lt;code&gt;CompositionSnapshot&lt;/code&gt;" vertex="1">
-                    <mxGeometry height="70" width="200" x="1010" y="622" as="geometry"/>
+                    <mxGeometry height="70" width="200" x="920" y="476" as="geometry"/>
                 </mxCell>
                 <mxCell id="5TwgJdS7ixdRb320kCLU-129" parent="5TwgJdS7ixdRb320kCLU-128" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;div&gt;idMatiere : obkectId&lt;/div&gt;&lt;div&gt;quantiteD&#39;matiere : Number&lt;/div&gt;" vertex="1">
                     <mxGeometry height="41" width="200" y="29" as="geometry"/>
@@ -169,18 +177,15 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="5TwgJdS7ixdRb320kCLU-132" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(253, 243, 255));&quot;&gt;detailled&#39;orders&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="71" width="140" x="790" y="602" as="geometry"/>
+                    <mxGeometry height="71" width="140" x="790" y="601" as="geometry"/>
                 </mxCell>
                 <mxCell id="5TwgJdS7ixdRb320kCLU-133" edge="1" parent="5TwgJdS7ixdRb320kCLU-132" source="5TwgJdS7ixdRb320kCLU-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;endArrow=none;endFill=0;">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="-70" y="150" as="targetPoint"/>
+                        <mxPoint x="-70" y="148" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="5TwgJdS7ixdRb320kCLU-134" parent="5TwgJdS7ixdRb320kCLU-132" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;div&gt;- quantite : Number&lt;/div&gt;" vertex="1">
                     <mxGeometry height="41" width="140" y="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="5TwgJdS7ixdRb320kCLU-135" edge="1" parent="1" source="5TwgJdS7ixdRb320kCLU-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.019;entryY=0.203;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;endArrow=none;endFill=0;" target="5TwgJdS7ixdRb320kCLU-116">
-                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="5TwgJdS7ixdRb320kCLU-136" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="0..*" vertex="1">
                     <mxGeometry height="30" width="60" x="970" y="642" as="geometry"/>
@@ -203,6 +208,11 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="yVQpu_mmypZ7JsUFaleJ-6" connectable="0" parent="5TwgJdS7ixdRb320kCLU-137" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+                    <mxGeometry relative="1" x="0.0183" y="-6" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="5TwgJdS7ixdRb320kCLU-140" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="0..*" vertex="1">
                     <mxGeometry height="30" width="60" x="810" y="822" as="geometry"/>
                 </mxCell>
@@ -213,7 +223,7 @@
                     <mxGeometry height="30" width="60" x="930" y="392" as="geometry"/>
                 </mxCell>
                 <mxCell id="yVQpu_mmypZ7JsUFaleJ-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Installation&lt;/span&gt;" vertex="1">
-                    <mxGeometry height="90" width="170" x="100" y="80" as="geometry"/>
+                    <mxGeometry height="90" width="170" x="470" y="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="yVQpu_mmypZ7JsUFaleJ-2" parent="yVQpu_mmypZ7JsUFaleJ-1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="&lt;div&gt;-id : ObjectId&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;installed : Boolean&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- dateInstallation: Date&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
                     <mxGeometry height="61" width="170" y="29" as="geometry"/>
