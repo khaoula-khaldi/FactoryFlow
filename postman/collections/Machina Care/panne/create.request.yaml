@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:3000/api/pannes/create
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"machine_id\": \"6ac006aa3bffa9772d5fbf1e\",\r
+
+    \    \"description\": \"La machine ne démarre plus\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 1000

@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:3000/api/auth/creeUser
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nom\": \"Test Operateur\",\r
+
+    \  \"email\": \"operateur@example.com\",\r
+
+    \  \"password\": \"123456\",\r
+
+    \  \"role\": \"OPERATEUR\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0mym}}"
+order: 4259521738972739

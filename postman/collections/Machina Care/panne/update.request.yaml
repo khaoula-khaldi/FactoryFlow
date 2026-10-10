@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/api/pannes/:id
+method: PUT
+pathVariables:
+  id: 6ac013c6822b594bd3f3eaa5
+body:
+  type: json
+  content: "{\r\n  \"statut\": \"en_cours\"\r\n}"
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 2000

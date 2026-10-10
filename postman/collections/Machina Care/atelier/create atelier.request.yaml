@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:3000/api/ateliers/create
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"nom\" : \"A001\",\r
+
+    \    \"description\":\"atelier dee azert\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_12sb}}"
+order: 1000

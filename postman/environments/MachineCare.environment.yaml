@@ -1,0 +1,7 @@
+name: MachineCare
+values:
+  - key: url
+    value: ""
+  - key: token
+    value: ""
+color: 300

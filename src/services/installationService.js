@@ -28,6 +28,4 @@ const install = async (userData) => {
     return admin;
 };
 
-module.exports = {
-    install
-};
+module.exports = {install};

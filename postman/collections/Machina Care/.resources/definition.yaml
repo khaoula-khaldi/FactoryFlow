@@ -1,0 +1,38 @@
+$kind: collection
+description: |-
+  ### Welcome to Postman! This is your first collection.
+
+  Collections are your starting point for building and testing APIs. You can use this one to:
+
+  • Group related requests  
+  • Test your API in real-world scenarios  
+  • Document and share your requests
+
+  Update the name and overview whenever you’re ready to make it yours.
+
+  [Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)
+variables:
+  - key: json_web_token_0zkj
+    secret: true
+  - key: json_web_token_12sb
+    secret: true
+  - key: json_web_token_10km
+    secret: true
+scripts:
+  - type: http:afterResponse
+    code: "const response = pm.response.json();\r
+
+      \r
+
+      if (response.token) {\r
+
+      \    pm.environment.set(\"token\", response.token);\r
+
+      \    console.log(\"Token saved:\", response.token);\r
+
+      } else {\r
+
+      \    console.log(\"Token not found in response\");\r
+
+      }"
+    language: text/javascript

@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:3000/api/machine/:id
+method: GET
+pathVariables:
+  id: 6ac00836950e598a96a532f3
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 3000

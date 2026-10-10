@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:3000/api/ateliers/:id
+method: GET
+pathVariables:
+  id: 6abf82c54f4f38fdea624990
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+settings:
+  protocolVersion: auto
+  strictSSL: false
+  followRedirects: true
+  disableCookies: false
+order: 3000

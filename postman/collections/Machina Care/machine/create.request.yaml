@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:3000/api/machine/create
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"reference\": \"M002\",\r
+
+    \    \"nom\": \"Machine CNC\",\r
+
+    \    \"atelier_id\": \"6abf8edee505370008623f3c\",\r
+
+    \    \"etat\": \"dispo\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 2000

@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:3000/api/ateliers/:id
+method: PUT
+pathVariables:
+  id: 6abf82c54f4f38fdea624990
+body:
+  type: json
+  content: "{\r
+
+    \    \"_id\": \"6abf82c54f4f38fdea624990\",\r
+
+    \    \"nom\": \"Atelier A\",\r
+
+    \    \"description\": \"Production\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+order: 4000
