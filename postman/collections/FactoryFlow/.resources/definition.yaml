@@ -3,3 +3,9 @@ variables:
   - key: json_web_token_0mym
     secret: true
     disabled: false
+  - key: json_web_token_0gk9
+    secret: true
+    disabled: false
+  - key: json_web_token_02or
+    secret: true
+    disabled: false

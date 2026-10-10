@@ -5,6 +5,7 @@ const connectDB = require("./config/database");
 
 const installationRoutes = require("./routes/installationRoutes");
 const authRoutes = require("./routes/utilisateurRoutes");
+const matierePremiereRoutes = require("./routes/matierePremiereRoutes");
 
 const app = express();
 
@@ -20,6 +21,7 @@ app.get("/", (req, res) => {
 
 app.use("/api/install", installationRoutes);
 app.use("/api/auth", authRoutes);
+app.use("/api/matieres-premieres", matierePremiereRoutes);
 
 const startServer = async () => {
     await connectDB();
