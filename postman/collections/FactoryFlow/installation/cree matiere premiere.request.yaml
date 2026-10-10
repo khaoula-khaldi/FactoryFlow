@@ -1,4 +1,21 @@
 $kind: http-request
-url: ""
-method: GET
+url: http://localhost:3000/api/matieres-premieres
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"reference\": \"MP001\",\r
+
+    \  \"nom\": \"Farine\",\r
+
+    \  \"uniteMesure\": \"kg\",\r
+
+    \  \"seuilAlerte\": 20\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_02or}}"
 order: 4259521738973739
