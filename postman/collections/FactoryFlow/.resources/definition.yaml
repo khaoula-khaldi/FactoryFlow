@@ -15,3 +15,12 @@ variables:
   - key: json_web_token_0bbl
     secret: true
     disabled: false
+  - key: json_web_token_10vs
+    secret: true
+    disabled: false
+  - key: json_web_token_1596
+    secret: true
+    disabled: false
+  - key: json_web_token_02s0
+    secret: true
+    disabled: false

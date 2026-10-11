@@ -1,0 +1,10 @@
+$kind: http-request
+name: http://localhost:3000/api/compositions
+description: ""
+url: http://localhost:3000/api/compositions
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_02s0}}"
+order: 2132534635797335

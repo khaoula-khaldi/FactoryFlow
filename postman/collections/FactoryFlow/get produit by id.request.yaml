@@ -1,0 +1,11 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/produits/:id
+method: GET
+pathVariables:
+  id: 6acba4461c893a12e0491c2d
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_1596}}"
+order: 2132534635793335

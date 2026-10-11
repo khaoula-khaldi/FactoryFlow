@@ -8,21 +8,8 @@ const utilisateurController = require("../controllers/utilisateurController");
 
 router.post("/login", utilisateurController.login);
 
-router.post(
-    "/creeUser",
-    authMiddleware,
-    adminMiddleware,
-    utilisateurController.creerUtilisateur
-);
+router.post("/creeUser",authMiddleware,adminMiddleware,utilisateurController.creerUtilisateur);
 
-console.log(
-    "Routes utilisateur:",
-    router.stack
-        .filter(r => r.route)
-        .map(r => ({
-            path: r.route.path,
-            methods: r.route.methods
-        }))
-);
+
 
 module.exports = router;

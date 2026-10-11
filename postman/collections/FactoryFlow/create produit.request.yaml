@@ -1,0 +1,20 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/produits/
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"reference\": \"PROD001\",\r
+
+    \  \"nom\": \"Table industrielle\",\r
+
+    \  \"description\": \"Table destinée à l'atelier\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_10vs}}"
+order: 2132534635791335

@@ -17,5 +17,5 @@ body:
 auth:
   type: bearer
   credentials:
-    token: "{{json_web_token_02or}}"
+    token: ""
 order: 4259521738973739

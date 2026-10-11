@@ -1,0 +1,20 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/compositions
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"produitId\": \"6acbdeb74e853f6ca56e76ad\",\r
+
+    \  \"matierePremiereId\": \"6acbdeea4e853f6ca56e76ae\",\r
+
+    \  \"quantite\": 4\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_02s0}}"
+order: 2132534635796335
