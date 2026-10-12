@@ -1,0 +1,21 @@
+$kind: http-request
+url: http://localhost:3000/api/matieres-premieres
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"reference\": \"MP001\",\r
+
+    \  \"nom\": \"plastique\",\r
+
+    \  \"uniteMesure\": \"kg\",\r
+
+    \  \"seuilAlerte\": 20\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: ""
+order: 1000

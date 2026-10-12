@@ -24,3 +24,24 @@ variables:
   - key: json_web_token_02s0
     secret: true
     disabled: false
+  - key: json_web_token_0da4
+    secret: true
+    disabled: false
+  - key: json_web_token_0a8n
+    secret: true
+    disabled: false
+  - key: json_web_token_12h6
+    secret: true
+    disabled: false
+  - key: json_web_token_0vvw
+    secret: true
+    disabled: false
+  - key: json_web_token_0sw2
+    secret: true
+    disabled: false
+  - key: json_web_token_17zq
+    secret: true
+    disabled: false
+  - key: json_web_token_0099
+    secret: true
+    disabled: false

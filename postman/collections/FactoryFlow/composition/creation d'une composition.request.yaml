@@ -6,9 +6,9 @@ body:
   type: json
   content: "{\r
 
-    \  \"produitId\": \"6acbdeb74e853f6ca56e76ad\",\r
+    \  \"produitId\": \"6acd416c6bc60bc7a84bbeb6\",\r
 
-    \  \"matierePremiereId\": \"6acbdeea4e853f6ca56e76ae\",\r
+    \  \"matierePremiereId\": \"6acd419c6bc60bc7a84bbeb7\",\r
 
     \  \"quantite\": 4\r
 
@@ -16,5 +16,5 @@ body:
 auth:
   type: bearer
   credentials:
-    token: "{{json_web_token_02s0}}"
-order: 2132534635796335
+    token: ""
+order: 1000

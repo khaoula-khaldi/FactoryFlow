@@ -1,6 +1,8 @@
 $kind: http-request
-url: http://localhost:3000/api/matieres-premieres
-method: POST
+url: http://localhost:3000/api/matieres-premieres/:id
+method: PUT
+pathVariables:
+  id: 6acaac5f39baead1660f913b
 body:
   type: json
   content: "{\r
@@ -17,5 +19,5 @@ body:
 auth:
   type: bearer
   credentials:
-    token: ""
-order: 4259521738973739
+    token: "{{json_web_token_0bbl}}"
+order: 3000

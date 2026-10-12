@@ -7,7 +7,9 @@ body:
 
     \    \"email\": \"admin@factoryflow.com\",\r
 
-    \    \"password\": \"789654123\"\r
+    \    \"password\": \"123456789\"\r
 
     \   } "
-order: 3732715263642041
+auth:
+  type: bearer
+order: 452

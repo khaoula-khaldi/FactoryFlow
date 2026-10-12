@@ -5,11 +5,11 @@ body:
   type: json
   content: "{\r
 
-    \    \"nom\": \"assia\",\r
+    \    \"nom\": \"admin\",\r
 
     \    \"email\": \"admin@factoryflow.com\",\r
 
-    \    \"password\": \"789654123\"\r
+    \    \"password\": \"123456789\"\r
 
     }"
 order: 1791478934297

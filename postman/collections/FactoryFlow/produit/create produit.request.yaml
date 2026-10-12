@@ -16,5 +16,5 @@ body:
 auth:
   type: bearer
   credentials:
-    token: "{{json_web_token_10vs}}"
-order: 2132534635791335
+    token: ""
+order: 1000

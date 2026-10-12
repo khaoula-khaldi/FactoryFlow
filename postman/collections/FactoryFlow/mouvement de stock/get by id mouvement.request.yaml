@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:3000/api/mouvement/:id
+method: GET
+pathVariables:
+  id: 6acccdaa6bc60bc7a84bbeac
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0da4}}"
+order: 3000
