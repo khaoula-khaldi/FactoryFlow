@@ -44,9 +44,7 @@ const creerMouvement = async (data) => {
 };
 
 const calculerStockActuel = async (matierePremiereId) => {
-    const mouvements =
-        await MouvementStockRepository.findByMatierePremiereId(matierePremiereId);
-
+    const mouvements =await MouvementStockRepository.findByMatierePremiereId(matierePremiereId);
     let stock = 0;
 
     for (const mouvement of mouvements) {
@@ -84,5 +82,6 @@ module.exports = {
     creerMouvement,
     obtenirTous,
     obtenirParId,
-    obtenirParMatierePremiere
+    obtenirParMatierePremiere,
+    calculerStockActuel
 };

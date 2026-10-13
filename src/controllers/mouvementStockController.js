@@ -17,6 +17,26 @@ const creer = async (req, res) => {
     }
 };
 
+const obtenirStockActuel = async (req, res) => {
+    try {
+        const { matierePremiereId } = req.params;
+
+        const stock = await mouvementStockService.calculerStockActuel(
+            matierePremiereId
+        );
+
+        return res.status(200).json({
+            message: "Stock actuel récupéré avec succès",
+            matierePremiereId,
+            stock
+        });
+    } catch (error) {
+        return res.status(500).json({
+            message: error.message
+        });
+    }
+};
+
 const obtenirTous = async (req, res) => {
     try {
         const mouvements = await mouvementStockService.obtenirTous();
@@ -78,5 +98,6 @@ module.exports = {
     creer,
     obtenirTous,
     obtenirParId,
-    obtenirParMatierePremiere
+    obtenirParMatierePremiere,
+    obtenirStockActuel
 };

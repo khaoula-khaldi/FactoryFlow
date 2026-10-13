@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:3000/api/mouvement/stock/:matierePremiereId
+method: GET
+pathVariables:
+  matierePremiereId: 6acd419c6bc60bc7a84bbeb7
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_18r1}}"
+order: 5000

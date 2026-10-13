@@ -45,3 +45,9 @@ variables:
   - key: json_web_token_0099
     secret: true
     disabled: false
+  - key: json_web_token_093u
+    secret: true
+    disabled: false
+  - key: json_web_token_18r1
+    secret: true
+    disabled: false
