@@ -16,7 +16,12 @@ const CompositionSnapshotSchema = new mongoose.Schema({
 
 const OrdreFabricationSchema = new mongoose.Schema({
 
-    numero: {
+    operateurId: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Utilisateur",
+        required: true
+    },
+        numero: {
         type: String,
         required: true,
         unique: true
@@ -51,3 +56,4 @@ const OrdreFabricationSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model("OrdreFabrication", OrdreFabricationSchema);
+

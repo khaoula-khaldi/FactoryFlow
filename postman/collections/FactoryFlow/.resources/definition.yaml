@@ -51,3 +51,15 @@ variables:
   - key: json_web_token_18r1
     secret: true
     disabled: false
+  - key: json_web_token_02ss
+    secret: true
+    disabled: false
+  - key: json_web_token_0rb6
+    secret: true
+    disabled: false
+  - key: json_web_token_0evx
+    secret: true
+    disabled: false
+  - key: json_web_token_188m
+    secret: true
+    disabled: false

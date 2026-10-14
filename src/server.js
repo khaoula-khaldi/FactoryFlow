@@ -9,6 +9,7 @@ const matierePremiereRoutes = require("./routes/matierePremiereRoutes");
 const produitRoute = require('./routes/produitRoutes');
 const compositionRoutes = require("./routes/compositionRoutes");
 const mouvementStockRoute = require("./routes/mouvementStockRoutes");
+const ordreFabricationRoute = require("./routes/ordreFabricationRoutes");
 
 const app = express();
 
@@ -28,6 +29,7 @@ app.use("/api/matieres-premieres", matierePremiereRoutes);
 app.use("/api/produits", produitRoute);
 app.use("/api/compositions", compositionRoutes);
 app.use('/api/mouvement',mouvementStockRoute);
+app.use('/api/ordres-fabrication',ordreFabricationRoute);
 
 const startServer = async () => {
     await connectDB();

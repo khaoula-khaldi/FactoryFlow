@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/api/ordres-fabrication
+method: POST
+order: 6000

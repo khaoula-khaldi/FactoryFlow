@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:3000/api/ordres-fabrication/6ace4389df3a465a71cb3207/annuler
+method: PATCH
+auth:
+  type: bearer
+order: 6000

@@ -1,3 +1,5 @@
+const mongoose = require("mongoose");
+
 const DetailOrdreSchema = new mongoose.Schema({
 
     ordreFabricationId: {

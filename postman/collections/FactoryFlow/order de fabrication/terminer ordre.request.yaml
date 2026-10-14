@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:3000/api/ordres-fabrication/:id/termine
+method: PATCH
+pathVariables:
+  id: 6ace4389df3a465a71cb3207
+auth:
+  type: bearer
+order: 5000

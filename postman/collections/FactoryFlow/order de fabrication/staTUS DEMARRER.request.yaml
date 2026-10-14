@@ -1,0 +1,10 @@
+$kind: http-request
+url: http://localhost:3000/api/ordres-fabrication/:id/demarrer
+method: PATCH
+pathVariables:
+  id: 6ace4389df3a465a71cb3207
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_188m}}"
+order: 4000
