@@ -2,9 +2,9 @@ $kind: http-request
 url: http://localhost:3000/api/matieres-premieres/:id
 method: GET
 pathVariables:
-  id: 6acaac5f39baead1660f913b
+  id: 6acf6ea67b1cb26a6c9007fb
 auth:
   type: bearer
   credentials:
-    token: "{{json_web_token_0bbl}}"
+    token: ""
 order: 2000

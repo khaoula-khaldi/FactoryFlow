@@ -1,6 +1,6 @@
 $kind: http-request
 description: ""
-url: http://localhost:3000/api/compositions/6acbdefe4e853f6ca56e76af
+url: http://localhost:3000/api/compositions/6acf74807b1cb26a6c900800
 method: PUT
 body:
   type: json
@@ -8,5 +8,5 @@ body:
 auth:
   type: bearer
   credentials:
-    token: "{{json_web_token_02s0}}"
+    token: ""
 order: 1951

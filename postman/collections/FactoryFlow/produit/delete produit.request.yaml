@@ -3,7 +3,7 @@ description: ""
 url: http://localhost:3000/api/produits/:id
 method: DELETE
 pathVariables:
-  id: 6acba4461c893a12e0491c2d
+  id: 6acf71dd7b1cb26a6c9007fe
 auth:
   type: bearer
   credentials:

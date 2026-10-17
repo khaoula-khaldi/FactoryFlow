@@ -3,13 +3,13 @@ url: http://localhost:3000/api/auth/login
 method: POST
 body:
   type: json
-  content: "//    {\r
+  content: "   {\r
 
-    //     \"email\": \"admin@factoryflow.com\",\r
+    \    \"email\": \"admin@factoryflow.com\",\r
 
-    //     \"password\": \"123456789\"\r
+    \    \"password\": \"123456789\"\r
 
-    //    } \r
+    \   } \r
 
     \r
 
@@ -21,13 +21,13 @@ body:
 
     // }\r
 
-    {\r
+    // {\r
 
-    \      \"email\": \"Operateur2@example.com\",\r
+    //       \"email\": \"Operateur2@example.com\",\r
 
-    \  \"password\": \"123456789\"\r
+    //   \"password\": \"123456789\"\r
 
-    }"
+    // }"
 auth:
   type: bearer
 order: 452

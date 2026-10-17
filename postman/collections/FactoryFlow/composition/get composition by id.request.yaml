@@ -3,9 +3,9 @@ description: ""
 url: http://localhost:3000/api/compositions/:id
 method: GET
 pathVariables:
-  id: 6acbdefe4e853f6ca56e76af
+  id: 6acd41cd6bc60bc7a84bbeb8
 auth:
   type: bearer
   credentials:
-    token: "{{json_web_token_02s0}}"
+    token: ""
 order: 3000
