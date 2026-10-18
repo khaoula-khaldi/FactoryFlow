@@ -1,45 +1,32 @@
 # FactoryFlow
-
 API REST de gestion des matières premières, des stocks et des ordres de fabrication pour un environnement industriel.
-
 ## 1. Prérequis
-
 Avant de démarrer le projet, les outils suivants doivent être installés :
-
 - **Node.js** : pour exécuter l'application.
 - **npm** : pour installer les dépendances.
 - **Docker Desktop** : pour exécuter les conteneurs.
 - **Docker Compose** : pour démarrer et arrêter l'application et la base de données.
-
 Vérifier les installations :
-
 ```bash
 node -v
 npm -v
 docker --version
 docker compose version
 ```
-
 ## 2. Configuration
-
 Le projet utilise les technologies suivantes :
-
 - Node.js et Express.js pour l'API REST.
 - MongoDB pour la base de données.
 - Mongoose pour la gestion des modèles et l'accès aux données.
 - JWT pour l'authentification.
 - Docker Compose pour l'exécution des services.
-
 ### Variables d'environnement
-
 Créer un fichier `.env` à la racine du projet si nécessaire, en respectant les variables utilisées dans le code :
-
 ```env
 PORT=3000
 MONGO_URI=mongodb://mongodb:27017/factoryflow
 JWT_SECRET=votre_cle_secrete
-```
-
+``
 **Important :** ces valeurs correspondent à un exemple de configuration Docker. Le nom des variables doit correspondre exactement à celui utilisé dans le projet. Ne jamais publier de véritables secrets dans un dépôt public.
 
 ## 3. Installation
