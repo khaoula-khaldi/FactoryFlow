@@ -6,6 +6,12 @@ const authMiddleware = require("../middlewares/authMiddleware");
 const adminMiddleware = require("../middlewares/adminMiddleware");
 
 const ordreFabricationController = require("../controllers/ordreFabricationController");
+/**
+ * @swagger
+ * tags:
+ *   name: Ordres de fabrication
+ *   description: la gestion des orders de fabrication
+ */
 
 /**
  * @swagger

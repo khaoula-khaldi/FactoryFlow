@@ -27,7 +27,7 @@ const utilisateurController = require("../controllers/utilisateurController");
  *                 example: admin@factoryflow.com
  *               password:
  *                 type: string
- *                 example: Admin123!
+ *                 example: 123456789
  *     responses:
  *       200:
  *         description: Connexion réussie
@@ -35,6 +35,12 @@ const utilisateurController = require("../controllers/utilisateurController");
  *         description: Email ou mot de passe incorrect
  */
 router.post("/login", utilisateurController.login);
+/**
+ * @swagger
+ * tags:
+ *   name: Utilisateurs
+ *   description: Gestion utilisateur
+ */
 
 /**
  * @swagger

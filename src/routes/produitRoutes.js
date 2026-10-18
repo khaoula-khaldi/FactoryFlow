@@ -4,6 +4,12 @@ const express = require("express");
 
 const router = express.Router();
 const ProduitController = require("../controllers/produitController");
+/**
+ * @swagger
+ * tags:
+ *   name: Produits
+ *   description: Gestion des produits
+ */
 
 /**
  * @swagger
