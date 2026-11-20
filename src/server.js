@@ -1,6 +1,9 @@
 require("dotenv").config();
 
 const express = require("express");
+const cors = require('cors');
+
+
 const connectDB = require("./config/database");
 const swaggerUi = require("swagger-ui-express");
 const swaggerDocument = require("./config/swagger");
@@ -15,9 +18,11 @@ const ordreFabricationRoute = require("./routes/ordreFabricationRoutes");
 
 const app = express();
 
+app.use(cors())
+app.use(express.json());
+
 const PORT = process.env.PORT || 3000;
 
-app.use(express.json());
 app.use("/api-docs",
     swaggerUi.serve,
     swaggerUi.setup(swaggerDocument)
@@ -36,6 +41,7 @@ app.use("/api/produits", produitRoute);
 app.use("/api/compositions", compositionRoutes);
 app.use('/api/mouvement',mouvementStockRoute);
 app.use('/api/ordres-fabrication',ordreFabricationRoute);
+
 
 const startServer = async () => {
     await connectDB();
